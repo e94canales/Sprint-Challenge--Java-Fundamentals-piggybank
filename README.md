@@ -25,9 +25,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+    Java is considered object oriented because it stores both the data and methods inside of an object. The main concepts behind this are encapsulation, abstraction, polymorphism, and inheritance. It also requires eveyrthing to be predefined for example, every variable needs a type before you make it.(int, String, double, long, etc.)
+
 2. Give examples of Java Collections explaining the use and differences between them.
+    Collections are groups of individual objects. 
+    Arrays: A basic array that can only store one data type, length must be specified.
+    ArrayLists: An array with super powers, can store objects witout a defined length. Can be duplicated.
+    Hash Map: This is a collection that requires a Key and Value pair. 
+
 3. What is recursion and how does it differ from regular looping?
+    Recursion is when a function is called within itself. It has conditionals that feed it the call and the input parameter but also a stop condition.
+
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+    Abstract Classes are more flexible, they allow the use of protected and private fields. You can also use abstract and non abstract methods that extend to the children. They can't be used without children. Interfaces consist of only abstract methods and they must be implemented with children.
 
 ## Instructions
 
